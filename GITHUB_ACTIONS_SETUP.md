@@ -21,7 +21,7 @@ Add these **GitHub Secrets** (Settings → Secrets and variables → Actions):
 
 ## Deployment Options (No VPS Required)
 
-### ✅ Option 1: Railway.app (Recommended - FREE)
+### Option 1: Railway.app (Recommended - FREE)
 
 **Best for:** Node.js apps, instant deployment, free tier
 
@@ -30,7 +30,7 @@ Add these **GitHub Secrets** (Settings → Secrets and variables → Actions):
 - Deploy with one click
 - GitHub Secret needed: `RAILWAY_TOKEN`
 
-### ✅ Option 2: Render
+### Option 2: Render
 
 **Best for:** Simple Node.js apps
 
@@ -39,14 +39,14 @@ Add these **GitHub Secrets** (Settings → Secrets and variables → Actions):
 - Auto-deploy on push
 - GitHub Secrets needed: `RENDER_SERVICE_ID`, `RENDER_API_KEY`
 
-### ✅ Option 3: AWS (EC2, ECS, AppRunner)
+### Option 3: AWS (EC2, ECS, AppRunner)
 
 **Best for:** Production apps, more control
 
 - GitHub Secrets needed: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`
 - AWS AppRunner: Easiest option (auto Docker deployment)
 
-### ✅ Option 4: Docker Hub Only (Manual Deployment)
+### Option 4: Docker Hub Only (Manual Deployment)
 
 **Best for:** Pulling Docker images locally\*\*
 
@@ -129,21 +129,21 @@ build-and-push job (runs only if test passes AND on main branch)
 
 ## Quick Start - Choose ONE:
 
-### 🚀 Fastest: Use Railway
+### Fastest: Use Railway
 
 1. Sign up at https://railway.app
 2. Connect your GitHub repo
 3. Create `RAILWAY_TOKEN` secret
 4. Done! Auto-deploys on every push
 
-### 💰 Free & Popular: Docker Hub
+### Free & Popular: Docker Hub
 
 1. Create account at https://hub.docker.com
 2. Create `DOCKER_USERNAME` and `DOCKER_PASSWORD` secrets
 3. Workflow automatically builds and pushes image
 4. Pull anywhere: `docker pull yourusername/ci-cd:latest`
 
-### 🏢 Production: AWS AppRunner
+### Production: AWS AppRunner
 
 1. Create AWS account
 2. Set up AppRunner with GitHub integration
