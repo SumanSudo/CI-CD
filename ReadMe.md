@@ -1,6 +1,29 @@
 # 🚀 CI/CD Notes
 
-## 📌 What is CI/CD?
+---
+
+## 🎉 Live Deployment
+
+Your CI/CD pipeline is **COMPLETE and WORKING!**
+
+🌐 **Live App URL:** https://ci-cd-bqoh.onrender.com/
+
+**How it works:**
+
+- You push code to GitHub
+- GitHub Actions automatically tests & builds Docker image
+- Render automatically deploys the new image
+- Your app updates instantly! ✨
+
+---
+
+## � CI/CD Workflow Diagram
+
+![CI/CD Workflow](./image/CICD.png)
+
+---
+
+## �📌 What is CI/CD?
 
 **CI/CD (Continuous Integration and Continuous Deployment/Delivery)** is a DevOps practice that automates the process of building, testing, and deploying applications.
 
