@@ -142,3 +142,6 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+CI_CD_EXPLORATION.md
+GITHUB_ACTIONS_SETUP.md
